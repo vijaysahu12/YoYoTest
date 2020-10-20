@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/css/yoyo.css" rel="stylesheet" />
+<div class="containerMain">
+    <h1 style="text-align: center; margin-top:10%;">YoYo test</h1>
+
+    <div class="containerBody">
+        <div class="circleContainer">
+            <div class="circle" id="btnPlayStop">
+                <img style="height: 32px;" src="~/Images/play.jpg" />
+                <div id="circleDiv"></div>
+            </div>
+        </div>
+        <div class="contarinerBodySecond">
+            <div class="CurrentStatusDiv" style="border-right: 1.6px solid #c1bbbb;">
+                <span> Next Shuttle</span>
+                <span id="nextShuttle">  </span>
+            </div>
+            <div class="CurrentStatusDiv">
+                <span> Total Time</span>
+                <span id="totalTime">  </span>
+            </div>
+            <div class="CurrentStatusDiv" style="border-left: 1.6px solid #c1bbbb">
+                <span>Total Distance</span>
+                <span id="totalDistance"></span>
+            </div>
+        </div>
+        <div class="containerFooter">
+            <div style="border-bottom: 1px solid black;" class="text-left">Track</div>
+            <div>
+                <ul class="list-group" id="PlayerList">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+     var submitYoYoTest ="@Url.Action("Add")";
+
+</script>
+<script src="~/js/yoyoTest.js"></script>

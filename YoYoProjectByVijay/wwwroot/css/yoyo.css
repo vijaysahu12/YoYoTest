@@ -1,0 +1,120 @@
+﻿
+.containerMain {
+    height: 80%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    transform: translateX(45%);
+}
+
+.containerHeader {
+}
+
+.containerFooter {
+    margin: 1%;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.circleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 200px;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px 3px grey;
+    color: black;
+    text-decoration-color: darkgray;
+}
+
+
+.MainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: center;
+    align-items: normal;
+}
+
+.contarinerBody {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: center;
+    align-items: normal;
+}
+
+.contarinerBodySecond {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: center;
+    align-items: normal;
+}
+
+
+.CurrentStatusDiv {
+    margin-bottom: 5%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+    .CurrentStatusDiv span {
+        text-align: center;
+    }
+
+.warnStopBtn {
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px 2px #c1b8b8;
+    color: white;
+    font-size: x-small;
+}
+
+
+.ParticipantList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.warnBtn {
+    background-color: #3f3f63;
+}
+
+
+.stopBtn {
+    background-color: #f57777;
+}
+
+#circleDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+}
+
+#circleDiv > p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
